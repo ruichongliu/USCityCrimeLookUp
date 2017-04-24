@@ -5,11 +5,11 @@ This webpage allows user to look up the degree of danger of the given city.
 Apr. 22|v1.0.0
 -------------
 Basic functionalities are completed, but there still are bugs to fix:
- - The webpage will shrink when the inpux box is selected
- - Need to remove "Search" button
- - Autocomplete will automatically generates a line of text at the bottom of the page
- - Node JS is needed
- - Add comparison function to the wabpage
+ [x] The webpage will shrink when the inpux box is selected
+ [ ] Need to remove "Search" button
+ [ ] Autocomplete will automatically generates a line of text at the bottom of the page
+ [x] Node JS is needed
+ [ ] Add comparison function to the wabpage
 ----
 
 Apr. 24|v1.0.1
