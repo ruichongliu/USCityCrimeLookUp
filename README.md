@@ -1,9 +1,9 @@
 # ruichongliu.github.io
 This webpage allows user to look up the degree of danger of the given city.
 
-===========
-Apr. 22|
-v1.0.0|
+
+Apr. 22|v1.0.0
+-------------
 Basic functionalities are completed, but there still are bugs to fix:
  - The webpage will shrink when the inpux box is selected
  - Need to remove "Search" button
@@ -11,4 +11,4 @@ Basic functionalities are completed, but there still are bugs to fix:
  - Node JS is needed
  - Add comparison function to the wabpage
  
- ==========
+
