@@ -29,4 +29,6 @@ Remaining todos:
 Newfound todo:
  - [ ] Translate content to English
 
-**Node JS is completed** but there are still bugs to fix. Search button is kept for testing purposes, until a better design is out.
+**Node JS is completed** but there are still bugs to fix. 
+
+**Search button** will be kept for testing purposes, until a better design is out.
