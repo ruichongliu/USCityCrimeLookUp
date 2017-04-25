@@ -1,7 +1,7 @@
 # ruichongliu.github.io
 This webpage allows user to look up the degree of danger of the given city.
 
-Authors: Stell Zhang and @ruichongliu
+Authors: Stell Zhang and @ruichongliu 
 
 
 ## Apr. 22| v1.0.0
