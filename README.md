@@ -1,7 +1,11 @@
 # ruichongliu.github.io
-This webpage allows user to look up the degree of danger of the given city.
+US city crime lookup project.
 
-Authors: Stell Zhang and [ruichongliu](https://github.com/ruichongliu)
+[Original Data](https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s.-2015/tables/table-8/table_8_offenses_known_to_law_enforcement_by_state_by_city_2015.xls/view) Collected by @ShaoyiZhang 
+
+[Porject Page](http://www.minkoder.com/crimerateproj) **(Only in Chinese)**
+
+Authors: Stell Zhang and [ruichongliu](https://github.com/ruichongliu) 
 
 
 ## Apr. 22| v1.0.0
