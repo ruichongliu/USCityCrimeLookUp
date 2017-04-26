@@ -60,3 +60,5 @@ submitbtn.addEventListener("click",e => {
 </table>`
      }
  }})
+
+console.log("v1.1.0 Apr 25 22:37");
