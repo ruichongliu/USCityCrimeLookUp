@@ -10,7 +10,7 @@ var availableTags = []
 function getRemote() {
     return $.ajax({
         type: "GET",
-        url: "http://www.minkoder.com/crime.json",
+        url: "https://raw.githubusercontent.com/ruichongliu/UsCrimeLookUp/master/FBI-Crime-Data/crimeByCity.json",
         async: false
     }).responseText;
 }
@@ -25,12 +25,16 @@ for (var key in cityData){
 }
 
 // autocomplete
-$( function() {
-  $( "#inputbox" ).autocomplete({
-    source: availableTags
-  });
-} );
+window.addEventListener("keydown", e => {
+    var cityUser = inputbox.value
+    if (cityUser.length > 4)
+    {$( function() {
+      $( "#inputbox" ).autocomplete({
+        source: availableTags
+      });
+    } );}
 
+})
 
 //Listen for submit
 submitbtn.addEventListener("click",e => {
