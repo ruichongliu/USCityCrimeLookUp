@@ -32,3 +32,9 @@ Newfound todo:
 **Node JS is completed** but there are still bugs to fix. 
 
 **Search button** will be kept for testing purposes, until a better design is out.
+
+
+## Apr. 25| v1.1.0
+**Major changes** to the project:
+
+The original idea to host this website on _Heroku_ did not work out. Instead, the web will remain on _GitHub_. **Node JS** and **Express JS** are not needed for now. The database will be moved from online to local, which might cause a problem when calling **AJAX** and **XMLHttpRequest**, since **Chrome** does not support local calls, yet other browsers do. Considering **Chrome** to be the standard testing platform, we will try to figure out a way to import the database without **Node JS**.
