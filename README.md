@@ -27,10 +27,10 @@ Authors: Stell Zhang and @[ruichongliu](https://github.com/ruichongliu)
 Remaining todos:
  - [ ] Add comparison function to the wabpage
  - [ ] Need to remove "Search" button
- - [ ] Autocomplete will automatically generates a line of text at the bottom of the page
+ - [x] Autocomplete will automatically generates a line of text at the bottom of the page
  
 Newfound todo:
- - [ ] Translate content to English
+ - [x] Translate content to English
 
 **Node JS is completed** but there are still bugs to fix. 
 
@@ -41,3 +41,12 @@ Newfound todo:
 **Major changes** to the project:
 
 The original idea to host this website on _Heroku_ did not work out. Instead, the web will remain on _GitHub_. **Node JS** and **Express JS** are not needed for now. The database will be moved from online to local, which might cause a problem when calling **AJAX** and **XMLHttpRequest**, since **Chrome** does not support local calls, yet other browsers do. Considering **Chrome** to be the standard testing platform, we will try to figure out a way to import the database without **Node JS**.
+
+
+## May. 11| v1.1.1
+**Two** bug is fixed:
+ - [x] Translate content to English
+ - [x] Autocomplete will automatically generates a line of text at the bottom of the page
+ 
+ sdfsdfsdfsd
+ 
