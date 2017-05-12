@@ -48,5 +48,5 @@ The original idea to host this website on _Heroku_ did not work out. Instead, th
  - [x] Translate content to English
  - [x] Autocomplete will automatically generates a line of text at the bottom of the page
  
- sdfsdfsdfsd
+Translated webpage description and fixed data query **Undefined** problem.
  
