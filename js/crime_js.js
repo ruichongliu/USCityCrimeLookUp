@@ -46,19 +46,18 @@ submitbtn.addEventListener("click",e => {
             content.innerHTML =
             `<table>
   <tr>
-    <th>City</th><th>Crimal</th><th>Rate</th>
-    <th>Index</th><th>City Ranking</th><th>Resident Ranking</th>
+    <th>City</th><th>Number</th><th>Index</th>
+    <th>Rate</th><th>Ranking</th>
   </tr>
   <tr>
     <td>${cityUser}</td>
-    <td>${cityData[cityUser]["Number"]}</td>
-    <td>${cityData[cityUser]["Rate"]}</td>
+    <td>${cityData[cityUser]["Num"]}</td>
     <td>${cityData[cityUser]["Index"]}</td>
-    <td>${cityData[cityUser]["City Ranking"]}</td>
-    <td>${cityData[cityUser]["Resident Ranking"]}</td>
+    <td>${cityData[cityUser]["Rate"]}</td>
+    <td>${cityData[cityUser]["Ranking"]}</td>
   </tr>
 </table>`
      }
  }})
 
-console.log("v1.1.0 Apr 25 22:37");
+console.log("v1.1.1 May 11 22:34");
