@@ -1,11 +1,12 @@
 # USCrimeLookUp
 **US City Crime Lookup Project**
 
+**[Demo](http://rliu.me/UsCrimeLookUp/)**
+
 **[Original Data](https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s.-2015/tables/table-8/table_8_offenses_known_to_law_enforcement_by_state_by_city_2015.xls/view)** Collected by @[ShaoyiZhang](https://github.com/ShaoyiZhang)
 
 **[Porject Page](http://www.minkoder.com/crimerateproj) _(Only in Chinese)_**
 
-**[Demo](http://rliu.me/UsCrimeLookUp/)**
 
 Authors: Stell Zhang and @[ruichongliu](https://github.com/ruichongliu) 
 
