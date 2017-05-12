@@ -5,7 +5,7 @@
 
 **[Porject Page](http://www.minkoder.com/crimerateproj) _(Only in Chinese)_**
 
-**[Project Demo](http://rliu.me/UsCrimeLookUp/)
+**[Project Demo](http://rliu.me/UsCrimeLookUp/)**
 
 Authors: Stell Zhang and @[ruichongliu](https://github.com/ruichongliu) 
 
