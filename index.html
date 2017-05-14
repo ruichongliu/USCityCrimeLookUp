@@ -18,11 +18,15 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
     rel="stylesheet" type="text/css">
 
+    <!-- Table CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css"
+    integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD"
+    crossorigin="anonymous">
 
+    <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">  </head>
-    <!--[endif]-->
+    crossorigin="anonymous">
 
     <!-- Autocomplete css -->
     <link href="css/auto-complete.css" rel="stylesheet">
@@ -47,7 +51,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <div id ="content"></div>
+                    <div id ="content" class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-s-12"></div>
                 </div>
             </div>
             <!-- /.row -->
@@ -73,22 +77,9 @@
                                 <i class="fa fa-cloud fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Number</strong>
+                                    <strong>Total Crime Occurance</strong>
                                 </h4>
-                                <p class="colInfo">Number of violent crimes occured in this city during 2015</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Index</strong>
-                                </h4>
-                                <p class="colInfo">Crime Rate / mean Crime Rate (An indicator for city safety compared to U.S. average)</p>
+                                <p class="colInfo">Occurance of crimes throughout the year of 2015</p>
                             </div>
                         </div>
 
@@ -99,9 +90,22 @@
                                 <i class="fa fa-flask fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Rate</strong>
+                                    <strong>Occurance Per Unit</strong>
                                 </h4>
-                                <p class="colInfo">Number of violent crimes occured annually for 100k people in this city</p>
+                                <p class="colInfo">Crime occurance annually per 100 thousand residents</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Crime Index</strong>
+                                </h4>
+                                <p class="colInfo">City crime rate divided by national overall crime rate</p>
                             </div>
                         </div>
 
@@ -114,7 +118,7 @@
                                 <h4>
                                     <strong>Ranking</strong>
                                 </h4>
-                                <p class="colInfo">Residents in this city has safter living condition than % of people in U.S.</p>
+                                <p class="colInfo">Residents of the city have a safer environment than this % of overall population</p>
                             </div>
                         </div>
 

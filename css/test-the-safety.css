@@ -65,10 +65,6 @@ hr.small {
 }
 
 
-
-
-
-
 /* Header */
 
 .header {
@@ -178,4 +174,5 @@ tr:nth-child(even) {
 
 .colInfo {
     font-weight: 300;
+    letter-spacing: 1.2px;
 }

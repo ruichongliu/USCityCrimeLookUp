@@ -44,18 +44,19 @@ submitbtn.addEventListener("click",e => {
          if (cityData.hasOwnProperty(cityUser))
          {
             content.innerHTML =
-            `<table>
-  <tr>
-    <th>City</th><th>Number</th><th>Index</th>
-    <th>Rate</th><th>Ranking</th>
-  </tr>
-  <tr>
+            `
+            <table class="pure-table pure-table-horizontal">
+  <thead><tr>
+    <th>City</th><th>Total Crime Occurance</th>
+    <th>Occurance Per Unit</th><th>Crime Index</th><th>Ranking</th>
+  </tr></thead>
+  <tbody><tr>
     <td>${cityUser}</td>
     <td>${cityData[cityUser]["Num"]}</td>
-    <td>${cityData[cityUser]["Index"]}</td>
     <td>${cityData[cityUser]["Rate"]}</td>
+    <td>${cityData[cityUser]["Index"]}</td>
     <td>${cityData[cityUser]["Ranking"]}</td>
-  </tr>
+  </tbody></tr>
 </table>`
      }
  }})
