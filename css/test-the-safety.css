@@ -175,3 +175,7 @@ tr:nth-child(even) {
 .ui-helper-hidden-accessible {
     display: none;
 }
+
+.colInfo {
+    font-weight: 300;
+}

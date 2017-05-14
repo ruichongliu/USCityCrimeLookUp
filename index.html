@@ -24,6 +24,9 @@
     crossorigin="anonymous">  </head>
     <!--[endif]-->
 
+    <!-- Autocomplete css -->
+    <link href="css/auto-complete.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -44,7 +47,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Safe? Probably?</h2>
                     <div id ="content"></div>
                 </div>
             </div>
@@ -73,7 +75,7 @@
                                 <h4>
                                     <strong>Number</strong>
                                 </h4>
-                                <p>Number of violent crimes occured in this city during 2015</p>
+                                <p class="colInfo">Number of violent crimes occured in this city during 2015</p>
                             </div>
                         </div>
 
@@ -86,7 +88,7 @@
                                 <h4>
                                     <strong>Index</strong>
                                 </h4>
-                                <p>Crime Rate / mean Crime Rate (An indicator for city safety compared to US average)</p>
+                                <p class="colInfo">Crime Rate / mean Crime Rate (An indicator for city safety compared to U.S. average)</p>
                             </div>
                         </div>
 
@@ -99,7 +101,7 @@
                                 <h4>
                                     <strong>Rate</strong>
                                 </h4>
-                                <p>Number of violent crimes occured annually for 100k people in this city</p>
+                                <p class="colInfo">Number of violent crimes occured annually for 100k people in this city</p>
                             </div>
                         </div>
 
@@ -112,7 +114,7 @@
                                 <h4>
                                     <strong>Ranking</strong>
                                 </h4>
-                                <p>Residents in this city has safter living condition than % of people in U.S.</p>
+                                <p class="colInfo">Residents in this city has safter living condition than % of people in U.S.</p>
                             </div>
                         </div>
 
@@ -157,7 +159,6 @@
             <i class="fa fa-chevron-up fa-fw fa-1x"></i>
         </a>
     </footer>
-
 
 
 
@@ -206,6 +207,23 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+    <!-- Autocomplete JS -->
+    <script src="js/auto-complete.min.js"></script>
+    <script>
+        new autoComplete({
+        selector: '#inputbox',
+        minChars: 2,
+        source: function(term, suggest){
+            term = term.toLowerCase();
+            var choices = availableTags;
+            var suggestions = [];
+            for (i=0;i<choices.length;i++)
+                if (~choices[i].toLowerCase().indexOf(term)) suggestions.push(choices[i]);
+            suggest(suggestions);
+        }
+        });
+    </script>
 
 </body>
 

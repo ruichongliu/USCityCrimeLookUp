@@ -25,16 +25,16 @@ for (var key in cityData){
 }
 
 // autocomplete
-window.addEventListener("keydown", e => {
-    var cityUser = inputbox.value
-    if (cityUser.length > 4)
-    {$( function() {
-      $( "#inputbox" ).autocomplete({
-        source: availableTags
-      });
-    } );}
-
-})
+// window.addEventListener("keydown", e => {
+//     var cityUser = inputbox.value
+//     if (cityUser.length > 4)
+//     {$( function() {
+//       $( "#inputbox" ).autocomplete({
+//         source: availableTags
+//       });
+//     } );}
+//
+// })
 
 //Listen for submit
 submitbtn.addEventListener("click",e => {
@@ -60,4 +60,4 @@ submitbtn.addEventListener("click",e => {
      }
  }})
 
-console.log("v1.1.1 May 11 22:34");
+console.log("v1.2.0 May 13 20:24");
