@@ -40,8 +40,7 @@
         <div class="text-vertical-center">
             <h1 id="head">City Safety Test</h1>
             <br>
-                <input id="inputbox" type="city" city="city" placeholder="Which city do you want to query?">
-                <a href="#about" class="btn btn-dark btn-lg" id="submitbtn">Search</a>
+            <input id="inputbox" type="city" city="city" placeholder="Which city do you want to query?">
 
         </div>
     </header>
@@ -225,7 +224,11 @@
             for (i=0;i<choices.length;i++)
                 if (~choices[i].toLowerCase().indexOf(term)) suggestions.push(choices[i]);
             suggest(suggestions);
+        },
+        onSelect: function(e, term, item) {
+            render(item.getAttribute('data-val'));
         }
+
         });
     </script>
 
