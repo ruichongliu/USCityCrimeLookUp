@@ -48,3 +48,6 @@ The original idea to host this website on _Heroku_ did not work out. Instead, th
  
 Translated webpage description and fixed data query **Undefined** problem.
  
+
+## May. 13| v1.2.0
+Changed the underlying autocomplete function.
