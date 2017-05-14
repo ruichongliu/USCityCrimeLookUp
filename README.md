@@ -12,8 +12,8 @@ Authors: Stell Zhang and @[ruichongliu](https://github.com/ruichongliu)
 ## Apr. 22| v1.0.0
 **Basic functionalities** are completed, but there still are bugs to fix:
  - [x] The webpage will shrink when the inpux box is selected
- - [ ] Need to remove "Search" button
- - [ ] Autocomplete will automatically generates a line of text at the bottom of the page
+ - [x] Need to remove "Search" button
+ - [x] Autocomplete will automatically generates a line of text at the bottom of the page
  - [x] Node JS is needed
  - [ ] Add comparison function to the wabpage
 
@@ -24,7 +24,7 @@ Authors: Stell Zhang and @[ruichongliu](https://github.com/ruichongliu)
  
 Remaining todos:
  - [ ] Add comparison function to the wabpage
- - [ ] Need to remove "Search" button
+ - [x] Need to remove "Search" button
  - [x] Autocomplete will automatically generates a line of text at the bottom of the page
  
 Newfound todo:
@@ -47,4 +47,14 @@ The original idea to host this website on _Heroku_ did not work out. Instead, th
  - [x] Autocomplete will automatically generates a line of text at the bottom of the page
  
 Translated webpage description and fixed data query **Undefined** problem.
+ 
+
+## May. 13| v1.2.0
+Changed the underlying autocomplete function.
+
+
+## May. 14| v1.2.2
+**One** major bug is fixed:
+ - [x] Need to remove "Search" button
+ 
  

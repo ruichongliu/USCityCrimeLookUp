@@ -24,40 +24,25 @@ for (var key in cityData){
         availableTags.push(key);}
 }
 
-// autocomplete
-window.addEventListener("keydown", e => {
-    var cityUser = inputbox.value
-    if (cityUser.length > 4)
-    {$( function() {
-      $( "#inputbox" ).autocomplete({
-        source: availableTags
-      });
-    } );}
-
-})
-
-//Listen for submit
-submitbtn.addEventListener("click",e => {
-     var cityUser = inputbox.value;
-     if (!cityUser) {e.preventDefault(); return}
-     else {
+function render (cityUser) {
          if (cityData.hasOwnProperty(cityUser))
          {
             content.innerHTML =
-            `<table>
-  <tr>
-    <th>City</th><th>Number</th><th>Index</th>
-    <th>Rate</th><th>Ranking</th>
-  </tr>
-  <tr>
+            `
+            <table class="pure-table pure-table-horizontal">
+  <thead><tr>
+    <th>City</th><th>Total Crime Occurance</th>
+    <th>Occurance Per Unit</th><th>Crime Index</th><th>Ranking</th>
+  </tr></thead>
+  <tbody><tr>
     <td>${cityUser}</td>
     <td>${cityData[cityUser]["Num"]}</td>
-    <td>${cityData[cityUser]["Index"]}</td>
     <td>${cityData[cityUser]["Rate"]}</td>
+    <td>${cityData[cityUser]["Index"]}</td>
     <td>${cityData[cityUser]["Ranking"]}</td>
-  </tr>
+  </tbody></tr>
 </table>`
      }
- }})
+ }
 
-console.log("v1.1.1 May 11 22:34");
+console.log("v1.2.2 May 14 00:06");
