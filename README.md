@@ -59,4 +59,5 @@ Changed the underlying autocomplete function.
 
 
 ## May. 15| v1.2.3
-Adjusted the data table to fit smaller screens.
+ - Adjusted the data table to fit smaller screens.
+ - Added an alert to notify users.
