@@ -45,4 +45,4 @@ function render (cityUser) {
      }
  }
 
-console.log("v1.2.2 May 14 00:06");
+console.log("v1.2.3 May 15 01:01");
