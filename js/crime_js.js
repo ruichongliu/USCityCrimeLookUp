@@ -31,7 +31,7 @@ function render (cityUser) {
             `    <h2>${cityUser}</h2>
             <table class="pure-table pure-table-horizontal">
   <thead><tr>
-    <th>Total Crime Occurance</th>
+    <th>Total Crime</th>
     <th>Occurance Per Unit</th><th>Crime Index</th><th>Ranking</th>
   </tr></thead>
   <tbody><tr>
