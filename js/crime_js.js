@@ -28,14 +28,14 @@ function render (cityUser) {
          if (cityData.hasOwnProperty(cityUser))
          {
             content.innerHTML =
-            `
+            `    <h2>${cityUser}</h2>
             <table class="pure-table pure-table-horizontal">
   <thead><tr>
-    <th>City</th><th>Total Crime Occurance</th>
+    <th>Total Crime Occurance</th>
     <th>Occurance Per Unit</th><th>Crime Index</th><th>Ranking</th>
   </tr></thead>
   <tbody><tr>
-    <td>${cityUser}</td>
+
     <td>${cityData[cityUser]["Num"]}</td>
     <td>${cityData[cityUser]["Rate"]}</td>
     <td>${cityData[cityUser]["Index"]}</td>

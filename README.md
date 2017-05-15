@@ -6,7 +6,7 @@
 **[Porject Page](http://www.minkoder.com/crimerateproj) _(Only in Chinese)_**
 
 
-Authors: Stell Zhang and @[ruichongliu](https://github.com/ruichongliu) 
+Authors: Stell Zhang and @[ruichongliu](https://github.com/ruichongliu)
 
 
 ## Apr. 22| v1.0.0
@@ -21,16 +21,16 @@ Authors: Stell Zhang and @[ruichongliu](https://github.com/ruichongliu)
 ## Apr. 24| v1.0.1
 **One** bug is fixed:
  - [x] The webpage will shrink when the inpux box is selected
- 
+
 Remaining todos:
  - [ ] Add comparison function to the wabpage
  - [x] Need to remove "Search" button
  - [x] Autocomplete will automatically generates a line of text at the bottom of the page
- 
+
 Newfound todo:
  - [x] Translate content to English
 
-**Node JS is completed** but there are still bugs to fix. 
+**Node JS is completed** but there are still bugs to fix.
 
 **Search button** will be kept for testing purposes, until a better design is out.
 
@@ -45,9 +45,9 @@ The original idea to host this website on _Heroku_ did not work out. Instead, th
 **Two** bug is fixed:
  - [x] Translate content to English
  - [x] Autocomplete will automatically generates a line of text at the bottom of the page
- 
+
 Translated webpage description and fixed data query **Undefined** problem.
- 
+
 
 ## May. 13| v1.2.0
 Changed the underlying autocomplete function.
@@ -56,5 +56,7 @@ Changed the underlying autocomplete function.
 ## May. 14| v1.2.2
 **One** major bug is fixed:
  - [x] Need to remove "Search" button
- 
- 
+
+
+## May. 15| v1.2.3
+Adjusted the data table to fit smaller screens.
